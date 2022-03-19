@@ -23,19 +23,80 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     font-family: 'Rubik', sans-serif;
     margin-left: auto;
     margin-right: auto;
-	
 }
 
-.carousel-item {
+/* .carousel-item {
 	background-color: grey;
-}
+} */
 
-.navbar { margin-bottom:0 !important; }
+/* .bg-dark{
+	background-color: #2C5971;
+} */
+
+.navbar{
+    background-color: #14387F;
+	width: 1500px;
+}
 
 #carouselExampleIndicators .carousel-item img {
 	object-fit: cover;
 	object-position: center;
 	height: 50vh;
 	overflow: hidden;
+	margin: 0 auto;
+	width: 100%;     
+	height: auto;
 }
 
+#carouselExampleIndicators{
+	margin-top: -24px;
+	width: 1500px;
+	/* float:none; */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body header, main{
+	
+	/* background-color: #c8d4dc; */
+	background-color: #e8edf0;
+
+}
+
+#navbarCollapse > form > button {
+
+	color: #446CB3;
+}
+
+.btn-outline-success {
+
+	border-color: #446CB3 !important;
+
+}
+
+#navbarCollapse > form > input {
+
+    background-color: #14387F;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+	color: white;
+	/* border-bottom: 5px red ; */
+	/* border-color: #446CB3; */
+}
+
+:active{
+
+}
+
+.form-control {
+	color: white;
+	
+}
+
+.d-flex .search-icon{
+	height: 20px;
+	width: 20px;
+
+}
