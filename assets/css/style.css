@@ -17,9 +17,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 
-
 *, body {
-
 	font-family: 'Rubik', sans-serif;
 	margin-left: auto;
 	margin-right: auto;
@@ -123,6 +121,12 @@ body header, main {
 
 #fmi-logo {
 	object-fit: contain;
-	height: 50px; /* не знам дали така ще е най-добрия начин */
+	height: 50px;
+	/* не знам дали така ще е най-добрия начин */
+	width: auto;
+}
+
+#news-icon {
+	height: 40px;
 	width: auto;
 }
