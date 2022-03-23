@@ -23,17 +23,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	margin-right: auto;
 }
 
-/* .carousel-item {
-	background-color: grey;
-} */
-
-/* .bg-dark{
-	background-color: #2C5971;
-} */
-
 .navbar {
 	background-color: #14387F;
-	width: 1500px;
+	width: 1600px;
 }
 
 #carouselExampleIndicators .carousel-item img {
@@ -47,18 +39,21 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 #carouselExampleIndicators {
+	/* old way */
+	/* width: 1500px;  */
+
+	float: none;
 	margin-top: -24px;
-	width: 1500px;
-	/* float:none; */
 	margin-left: auto;
 	margin-right: auto;
 }
 
-body header, main {
-
-	/* background-color: #c8d4dc; */
+body ,main {
 	background-color: #e8edf0;
+}
 
+header{
+	background-color: #14387F;
 }
 
 #navbarCollapse>form>button {
@@ -131,6 +126,26 @@ body header, main {
 	width: auto;
 }
 
+.card {
+	/* width: 15rem; */
+	/* margin-right: 0 auto; */
+	margin-top: 1.3rem;
+	border: none !important;
+	border-top: 3px;
+	/* border-radius: 0px !important; */
+	
+
+}
+
+.news-icon{
+	width: 85%;
+}
+
+
+
+
+/* Students page */
+
 #schedules-header-title {
 	width: 100%;
 	text-align: center;
@@ -148,3 +163,4 @@ body header, main {
 #schedules-header{
 	margin: 0 5%;
 }
+
