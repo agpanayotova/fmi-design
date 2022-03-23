@@ -130,3 +130,21 @@ body header, main {
 	height: 40px;
 	width: auto;
 }
+
+#schedules-header-title {
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	line-height: 0.1em;
+	margin: 10px 0 20px;
+	font-size: xx-large;
+}
+
+#schedules-header-title span {
+	background: #fff;
+	padding: 0 6%;
+}
+
+#schedules-header{
+	margin: 0 5%;
+}
