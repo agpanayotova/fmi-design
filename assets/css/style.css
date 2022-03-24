@@ -94,7 +94,7 @@ header{
 }
 
 #messages{
-	width: 50rem;
+	/* width: 75rem; */
 }
 
 
@@ -131,7 +131,18 @@ header{
 	width: auto;
 }
 
-#news-icon {
+#messages-icon{
+	height: 60rem;
+	/* width: auto; */
+}
+
+.message-link{
+	border-bottom: 2px !important;
+	border-color: #113D77;
+}
+
+
+#news-icon{
 	height: 40px;
 	width: auto;
 }
@@ -140,8 +151,11 @@ header{
 	/* width: 15rem; */
 	/* margin-right: 0 auto; */
 	margin-top: 1.3rem;
+	/* margin-bottom: 1rem; */
 	border: none !important;
-	border-top: 3px;
+	border-top: 5rem;
+	border-color: #000;
+	background-color: #ffffff !important;
 	/* border-radius: 0px !important; */
 	
 
@@ -151,7 +165,10 @@ header{
 	width: 85%;
 }
 
-
+footer{
+	background-color: #14387F;
+	color:#fff;
+}
 
 
 /* Students page */
