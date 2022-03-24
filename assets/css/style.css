@@ -144,11 +144,6 @@ header{
 	width: auto;
 }
 
-#messages-icon{
-	height: 60rem;
-	/* width: auto; */
-}
-
 .message-link{
 	border-bottom: 2px !important;
 	border-color: #113D77;
@@ -160,7 +155,7 @@ header{
 	/* margin-right: 0 auto; */
 	margin-top: 1.3rem;
 	/* margin-bottom: 1rem; */
-	border: none !important;
+	/* border: none !important; */
 	border-top: 5rem;
 	border-color: #000;
 	background-color: #ffffff !important;
@@ -170,7 +165,7 @@ header{
 }
 
 .news-icon{
-	width: 8%;
+	width: 1rem;
 }
 
 footer{
@@ -201,4 +196,7 @@ footer{
 }
 
 /* Admission page */
-
+.card-admission{
+	background-color: #fafafa !important;
+	width: 20rem;
+}
