@@ -181,21 +181,22 @@ footer{
 
 /* Students page */
 
-#schedules-header-title {
+#schedules-header-title, #admission-header-title{
 	width: 100%;
 	text-align: center;
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid #09173D;
 	line-height: 0.1em;
 	margin: 10px 0 20px;
 	font-size: xx-large;
+	color: #09173D;
 }
 
-#schedules-header-title span {
+#schedules-header-title, #admission-header-title span {
 	background: #fff;
 	padding: 0 6%;
 }
 
-#schedules-header{
+#schedules-header, #admission-header{
 	margin: 0 5%;
 }
 
