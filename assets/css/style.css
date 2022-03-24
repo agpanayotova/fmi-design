@@ -48,6 +48,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	margin-right: auto;
 }
 
+.carousel-inner > .carousel-item {
+	/* Todo slower transition  */
+    /* transition: 0.6ms; */
+    
+}
+
 body ,main {
 	background-color: #e8edf0;
 }
@@ -94,11 +100,18 @@ header{
 }
 
 #messages{
-	/* width: 75rem; */
+	float: none;
+	background-color: #1A62A3;
+	color:#fff;
+	margin-left: auto;
+	margin-right: auto;
+}
+.link-light{
+
+	font-size: 1.3rem;
 }
 
-
-#carouselExampleIndicators li {
+#carouselExampleIndicators li{
 	width: 10px;
 	height: 10px;
 	border-radius: 100%;
@@ -142,11 +155,6 @@ header{
 }
 
 
-#news-icon{
-	height: 40px;
-	width: auto;
-}
-
 .card {
 	/* width: 15rem; */
 	/* margin-right: 0 auto; */
@@ -162,7 +170,7 @@ header{
 }
 
 .news-icon{
-	width: 85%;
+	width: 8%;
 }
 
 footer{

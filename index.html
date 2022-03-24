@@ -116,35 +116,44 @@
     <!-- Carousel End  -->
 
     <!-- Important messages -->
-    <div class="container" id="messages">
-        <div class="col">
-          <div class="card rounded-0 d-flex justify-content-around p-3">
-
-              <div class="row"> 
-                <div class="col-3"><img class="messages-icon" src="./assets/img/icons/megaphone.png"></div>
-                <div class="col-8 p-0"><h1>Важни съобщения</h1></div> 
+    <section id="messages" class="">
+      <div class="container" >
+        <div class="col pt-4">
+              <div class="row justify-content-center"> 
+                <!-- <div class="col-3"><img class="messages-icon" src="./assets/img/icons/megaphone.png"></div> -->
+                <div class="col-sm-auto"><h1 class="font-weight-bold">Важни съобщения</h1></div> 
               </div>
-
-              <div class="row">
-                <div class="col-3"><a href="#" class="messages-link">Извънредни занятия 2021/2022</a></div>
-                <div class="col-3"><a href="#" class="messages-link">Извънредни изпити 2021/2022</a></div>
-                <div class="col-3"><a href="#" class="messages-link">Катедрени съвети 2021/2022</a></div>
+              <div class="row justify-content-center">
+                <div class="col-4 p-3 messages-link"><a href="#" class="link-light">Извънредни занятия 2021/2022</a></div>
+                <div class="col-4 p-3 messages-link"><a href="#" class="link-light">Извънредни изпити 2021/2022</a></div>
+                <div class="col-4 p-3 messages-link"><a href="#" class="link-light">Катедрени съвети 2021/2022</a></div>
               </div>
-
-          </div>
       </div>
     </div>
+    </section>
+
+
+
+
+
+    
 <!-- End important messages -->
     
 <!-- News cards Start -->
+
       <div class="container">
+        <div class="row">
+          <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div>
+          <div class="col"><h2>Новини</h2></div>
+        </div>
+
       <div class="row">
         <div class="col-3">
           <div class="card rounded-0 border-top">
             <div class="card-body">
               <div class="row">
-                  <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div>
-                  <div class="col-8 p-0"><h5 class="card-title font-weight-bold p-0">Присъствено провеждане на учебните занятия през пролетния триместър</h5></div>
+                  <!-- <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div> -->
+                  <div class="col"><h5 class="card-title font-weight-bold p-0">Присъствено провеждане на учебните занятия през пролетния триместър</h5></div>
               </div>
               <p class="card-text">Уважаеми студенти,<br>
                 Предвид текущата епидемична обстановка, последната заповед на министъра на образованието и ректора на ПУ...</p>
@@ -158,8 +167,8 @@
           <div class="card rounded-0 border-top">
             <div class="card-body">
               <div class="row">
-                  <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div>
-                  <div class="col-8 p-0"><h5 class="card-title font-weight-bold p-0">Избираеми дисциплини 2021/22, Пролетен триместър, РЕДОВНО ОБУЧЕНИЕ, до 30.03.2022</h5></div>
+                  <!-- <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div> -->
+                  <div class="col"><h5 class="card-title font-weight-bold p-0">Избираеми дисциплини 2021/22, Пролетен триместър, РЕДОВНО ОБУЧЕНИЕ</h5></div>
               </div>
               <p class="card-text">
                 Броят на студентите за всяка дисциплина е ограничен.
@@ -169,13 +178,12 @@
           </div>
         </div> 
 
-
         <div class="col-3">
           <div class="card rounded-0 border-top">
             <div class="card-body">
               <div class="row">
-                  <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div>
-                  <div class="col-8 p-0"><h5 class="card-title font-weight-bold p-0">„Студентски практики – Фаза 2“</h5></div>
+                  <!-- <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div> -->
+                  <div class="col"><h5 class="card-title font-weight-bold p-0">„Студентски практики – Фаза 2“</h5></div>
               </div>
               <p class="card-text">
                 Уважаеми студенти, поради възобновяване на дейностите по проект BG05M2OP001-2.013-0001 „Студентски практики – 
@@ -184,85 +192,7 @@
             </div>
           </div>
         </div> 
-
-        <!-- Sidebar -->
-        <!-- <div class="col-3">
-          <div class="flex-shrink-0 p-3 bg-white" style="width: 280px;">
-            <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-              <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-              <span class="fs-5 fw-semibold">Collapsible</span>
-            </a> 
-            <ul class="list-unstyled ps-0">
-              <li class="mb-1">
-          
-                <h1></h1>
-                     
-                <div class="collapse show" id="home-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">Overview</a></li>
-                    <li><a href="#" class="link-dark rounded">Updates</a></li>
-                    <li><a href="#" class="link-dark rounded">Reports</a></li>
-                  </ul>
-                </div>
-              </li>
-
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                  Dashboard
-                </button>
-                <div class="collapse" id="dashboard-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">Overview</a></li>
-                    <li><a href="#" class="link-dark rounded">Weekly</a></li>
-                    <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                    <li><a href="#" class="link-dark rounded">Annually</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                  Orders
-                </button>
-                <div class="collapse" id="orders-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">New</a></li>
-                    <li><a href="#" class="link-dark rounded">Processed</a></li>
-                    <li><a href="#" class="link-dark rounded">Shipped</a></li>
-                    <li><a href="#" class="link-dark rounded">Returned</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="border-top my-3"></li>
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-                  Account
-                </button>
-                <div class="collapse" id="account-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">New...</a></li>
-                    <li><a href="#" class="link-dark rounded">Profile</a></li>
-                    <li><a href="#" class="link-dark rounded">Settings</a></li>
-                    <li><a href="#" class="link-dark rounded">Sign out</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div> --> 
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-        
+      </div>
     </div>
   </div> 
     <!-- News cards End -->
