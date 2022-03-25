@@ -107,7 +107,6 @@ header{
 	margin-right: auto;
 }
 .link-light{
-
 	font-size: 1.3rem;
 }
 
@@ -160,13 +159,29 @@ header{
 	border-color: #000;
 	background-color: #ffffff !important;
 	/* border-radius: 0px !important; */
-	
-
 }
 
 .news-icon{
 	width: 1rem;
 }
+
+
+/* Lines below need a second thought..  */
+#about{
+	background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+img#about{
+	opacity: 0.7;
+	object-fit: contain;
+	/* height: 500px; */
+	width: auto;
+	/* background-repeat: no-repeat; */
+  	background-size: cover;
+}  
+
+/* ------------------- */
 
 footer{
 	background-color: #14387F;
