@@ -188,10 +188,13 @@ footer{
 	color:#fff;
 }
 
+.schedule-card-heading {
+	display: inline-block;
+}
 
 /* Students page */
 
-#schedules-header-title, #admission-header-title{
+#schedules-header-title, #admission-header-title, #others-header-title{
 	width: 100%;
 	text-align: center;
 	border-bottom: 1px solid #09173D;
@@ -201,12 +204,12 @@ footer{
 	color: #09173D;
 }
 
-#schedules-header-title, #admission-header-title span {
+#schedules-header-title span, #admission-header-title span, #others-header-title span {
 	background: #fff;
 	padding: 0 6%;
 }
 
-#schedules-header, #admission-header{
+#schedules-header, #admission-header, #others-header{
 	margin: 0 5%;
 }
 
@@ -214,4 +217,8 @@ footer{
 .card-admission{
 	background-color: #fafafa !important;
 	width: 20rem;
+}
+
+.schedule-card-heading{
+	display: inline;
 }

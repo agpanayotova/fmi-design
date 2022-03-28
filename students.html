@@ -8,7 +8,7 @@
     <title>Студенти</title>
     <link rel="icon" href="./assets/img/icons/fmi-plovdiv.org.ico" type="image/x-icon">
     <!-- Styles -->
-    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Fonts -->
@@ -18,111 +18,169 @@
 <body>
     <header>
         <!-- Navbar  -->
-    <nav class="navbar navbar-expand-md navbar-dark mb-4">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="/"><img src="/assets/img/icons/fmi-logo.png" alt="fmi-logo" id="fmi-logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav me-auto mb-2 mb-md-0">
-  
-              <li class="nav-item">
-                <a class="nav-link" href="./about.html">За ФМИ</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Контакти</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./students.html">Студенти</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./admission.html">Кандидатстване</a>
-              </li>
-            </ul>
-            <!-- Navbar End  -->
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Търсене..." aria-label="Search">
-              <input type="image" href="#" class="search-icon " src="./assets/img/icons/search-icon.png">
-            </form>
-          </div>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-md navbar-dark mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/"><img src="/assets/img/icons/fmi-logo.png" alt="fmi-logo"
+                        id="fmi-logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">За ФМИ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Контакти</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./students.html">Студенти</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./admission.html">Кандидатстване</a>
+                        </li>
+                    </ul>
+                    <!-- Navbar End  -->
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Търсене..." aria-label="Search">
+                        <input type="image" href="#" class="search-icon " src="./assets/img/icons/search-icon.png">
+                    </form>
+                </div>
+            </div>
+        </nav>
     </header>
-  
+
     <div id="schedules-header">
         <h1 id="schedules-header-title">
             <span>Учебни разписания</span>
         </h1>
     </div>
     <div id="schedules">
-        <div class="col">
-            <div class="row">
-                <div class="col">Информатика</div>
-                <div class="col btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-primary">1. курс</button>
-                    <button type="button" class="btn btn-outline-primary">2. курс</button>
-                    <button type="button" class="btn btn-outline-primary">3. курс</button>
-                    <button type="button" class="btn btn-outline-primary">4. курс</button>
+        <div class="row">
+            <!-- бакалавър -->
+            <div class="col">
+                <div class="card">
+                    <h3 class="schedule-card-heading">Бакалавър</h3>
+                    <div class="row">
+                        <div class="col">Информатика</div>
+                        <div class="col btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary">1. курс</button>
+                            <button type="button" class="btn btn-outline-primary">2. курс</button>
+                            <button type="button" class="btn btn-outline-primary">3. курс</button>
+                            <button type="button" class="btn btn-outline-primary">4. курс</button>
+                        </div>
+                        <div class="col"><a href="#">Архив</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">Бизнес ИТ</div>
+                        <div class="col btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary">1. курс</button>
+                            <button type="button" class="btn btn-outline-primary">2. курс</button>
+                            <button type="button" class="btn btn-outline-primary">3. курс</button>
+                            <button type="button" class="btn btn-outline-primary">4. курс</button>
+                        </div>
+                        <div class="col"><a href="#">Архив</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">СТ и дизайн</div>
+                        <div class="col btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary">1. курс</button>
+                            <button type="button" class="btn btn-outline-primary">2. курс</button>
+                            <button type="button" class="btn btn-outline-primary">3. курс</button>
+                            <button type="button" class="btn btn-outline-primary">4. курс</button>
+                        </div>
+                        <div class="col"><a href="#">Архив</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">Софтуерно инженерство</div>
+                        <div class="col btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary">1. курс</button>
+                            <button type="button" class="btn btn-outline-primary">2. курс</button>
+                            <button type="button" class="btn btn-outline-primary">3. курс</button>
+                            <button type="button" class="btn btn-outline-primary">4. курс</button>
+                        </div>
+                        <div class="col"><a href="#">Архив</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">Математика</div>
+                        <div class="col btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary">1. курс</button>
+                            <button type="button" class="btn btn-outline-primary">2. курс</button>
+                            <button type="button" class="btn btn-outline-primary">3. курс</button>
+                            <button type="button" class="btn btn-outline-primary">4. курс</button>
+                        </div>
+                        <div class="col"><a href="#">Архив</a></div>
+                    </div>
+                    <div class="row">
+                        <div class="col">Приложна математика</div>
+                        <div class="col btn-group" role="group" aria-label="Basic outlined example">
+                            <button type="button" class="btn btn-outline-primary">1. курс</button>
+                            <button type="button" class="btn btn-outline-primary">2. курс</button>
+                            <button type="button" class="btn btn-outline-primary">3. курс</button>
+                            <button type="button" class="btn btn-outline-primary">4. курс</button>
+                        </div>
+                        <div class="col"><a href="#">Архив</a></div>
+                    </div>
                 </div>
-                <div class="col"><a href="#">Архив</a></div>
             </div>
-            <div class="row">
-                <div class="col">Бизнес ИТ</div>
-                <div class="col btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-primary">1. курс</button>
-                    <button type="button" class="btn btn-outline-primary">2. курс</button>
-                    <button type="button" class="btn btn-outline-primary">3. курс</button>
-                    <button type="button" class="btn btn-outline-primary">4. курс</button>
+            <!-- магистър -->
+            <div class="col">
+                <div class="card">
+                    <h3 class="schedule-card-heading">Магистър</h3>
+                    <div class="row">
+                        <div class="row">
+                            Софтуерни технологии със специализация софтуерни архитектури и средства
+                        </div>
+                        <div class="row">
+                            <div class="col btn-group">
+                                <button type="button" class="btn btn-outline-primary">1-годишен</button>
+                                <button type="button" class="btn btn-outline-primary">2-годишен</button>
+                            </div>
+                            <div class="col">
+                                <a href="#">Архив</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row">
+                            Софтуерни технологии със специализация мобилни системи и приложения
+                        </div>
+                        <div class="row">
+                            <div class="col btn-group">
+                                <button type="button" class="btn btn-outline-primary">1-годишен</button>
+                                <button type="button" class="btn btn-outline-primary">2-годишен</button>
+                            </div>
+                            <div class="col">
+                                <a href="#">Архив</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="row">
+                            Софтуерни технологии със специализация графични среди и потребителски интерфейси
+                        </div>
+                        <div class="row">
+                            <div class="col btn-group">
+                                <button type="button" class="btn btn-outline-primary">1-годишен</button>
+                                <button type="button" class="btn btn-outline-primary">2-годишен</button>
+                            </div>
+                            <div class="col">
+                                <a href="#">Архив</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col"><a href="#">Архив</a></div>
-            </div>
-            <div class="row">
-                <div class="col">СТ и дизайн</div>
-                <div class="col btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-primary">1. курс</button>
-                    <button type="button" class="btn btn-outline-primary">2. курс</button>
-                    <button type="button" class="btn btn-outline-primary">3. курс</button>
-                    <button type="button" class="btn btn-outline-primary">4. курс</button>
-                </div>
-                <div class="col"><a href="#">Архив</a></div>
-            </div>
-            <div class="row">
-                <div class="col">Софтуерно инженерство</div>
-                <div class="col btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-primary">1. курс</button>
-                    <button type="button" class="btn btn-outline-primary">2. курс</button>
-                    <button type="button" class="btn btn-outline-primary">3. курс</button>
-                    <button type="button" class="btn btn-outline-primary">4. курс</button>
-                </div>
-                <div class="col"><a href="#">Архив</a></div>
-            </div>
-            <div class="row">
-                <div class="col">Математика</div>
-                <div class="col btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-primary">1. курс</button>
-                    <button type="button" class="btn btn-outline-primary">2. курс</button>
-                    <button type="button" class="btn btn-outline-primary">3. курс</button>
-                    <button type="button" class="btn btn-outline-primary">4. курс</button>
-                </div>
-                <div class="col"><a href="#">Архив</a></div>
-            </div>
-            <div class="row">
-                <div class="col">Приложна математика</div>
-                <div class="col btn-group" role="group" aria-label="Basic outlined example">
-                    <button type="button" class="btn btn-outline-primary">1. курс</button>
-                    <button type="button" class="btn btn-outline-primary">2. курс</button>
-                    <button type="button" class="btn btn-outline-primary">3. курс</button>
-                    <button type="button" class="btn btn-outline-primary">4. курс</button>
-                </div>
-                <div class="col"><a href="#">Архив</a></div>
             </div>
         </div>
+
     </div>
 
     <div id="others-header">
-
+        <h1 id="others-header-title">
+            <span>Други</span>
+        </h1>
     </div>
     <div id="others">
 
