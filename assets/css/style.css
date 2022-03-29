@@ -54,7 +54,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     
 }
 
-body ,main {
+body, main, .bg {
 	background-color: #e8edf0;
 }
 
@@ -205,7 +205,7 @@ footer{
 }
 
 #schedules-header-title span, #admission-header-title span, #others-header-title span {
-	background: #fff;
+	background: #e8edf0;
 	padding: 0 6%;
 }
 
