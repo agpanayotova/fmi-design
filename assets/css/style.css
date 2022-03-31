@@ -162,7 +162,7 @@ header{
 }
 
 .news-icon{
-	width: 1rem;
+	width: 2rem;
 }
 
 
@@ -221,4 +221,21 @@ footer{
 
 .schedule-card-heading{
 	display: inline;
+}
+
+#main-footer-text{
+
+}
+
+#main-footer-img{
+	shape-outside: polygon(100% 0px, 100% 100%, 0px 100%, 0px 425px);
+	float: right;
+}
+
+#main-footer{
+	clear: both
+}
+
+#pre-footer{
+	margin-top: 100px;
 }

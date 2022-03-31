@@ -33,10 +33,10 @@
     crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>    
+    crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="bg">
   <header>
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-md navbar-dark mb-4">
@@ -91,6 +91,7 @@
           <img class="d-block w-100" src="./assets/img/illustrations/carousel_1.jpg" alt="First slide">
           <div class="carousel-caption d-none d-md-block">
             <!-- Do we need carousel text? -->
+            <!-- nope -->
           </div>
         </div>
         <div class="carousel-item">
@@ -113,56 +114,67 @@
 
     <!-- Important messages -->
     <section id="messages" class="">
-      <div class="container" >
+      <div class="container">
         <div class="col pt-4">
-              <div class="row justify-content-center"> 
-                <!-- <div class="col-3"><img class="messages-icon" src="./assets/img/icons/megaphone.png"></div> -->
-                <div class="col-sm-auto"><h1 class="font-weight-bold">Важни съобщения</h1></div> 
-              </div>
-              <div class="row justify-content-center">
-                <div class="col-4 p-3 messages-link"><a href="#" class="link-light">Извънредни занятия 2021/2022</a></div>
-                <div class="col-4 p-3 messages-link"><a href="#" class="link-light">Извънредни изпити 2021/2022</a></div>
-                <div class="col-4 p-3 messages-link"><a href="#" class="link-light">Катедрени съвети 2021/2022</a></div>
-              </div>
-      </div>
-    </div>
-    </section>
-<!-- End important messages -->
-    
-<!-- News cards Start -->
-
-<div class="container">
-
-
-<div class="container d-flex justify-content-center mt-4">
-         <div class="row m-3">
-          <div class="col-2" ><img class="news-icon" src="./assets/img/icons/news.png"></div>       
-          <div class="col-4 "><h7>Новини</h7></div>
+          <div class="row justify-content-center">
+            <!-- <div class="col-3"><img class="messages-icon" src="./assets/img/icons/megaphone.png"></div> -->
+            <div class="col-sm-auto">
+              <h1 class="font-weight-bold">Важни съобщения</h1>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-4 p-3 messages-link"><a href="#" class="link-light">Извънредни занятия 2021/2022</a></div>
+            <div class="col-4 p-3 messages-link"><a href="#" class="link-light">Извънредни изпити 2021/2022</a></div>
+            <div class="col-4 p-3 messages-link"><a href="#" class="link-light">Катедрени съвети 2021/2022</a></div>
+          </div>
         </div>
-</div>
+      </div>
+    </section>
+    <!-- End important messages -->
 
-<div class="row">
+    <!-- News cards Start -->
+
+    <div class="container">
+
+
+      <div class="container d-flex justify-content-center mt-4">
+        <div class="row m-3">
+          <div class="col-4"><img class="news-icon" src="./assets/img/icons/news.png"></div>
+          <div class="col text-center">
+            <h4>Новини</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
         <div class="col-3">
-          <div class="card rounded-0 border-top">
+          <div class="card rounded-0 border-top h-100">
             <div class="card-body">
               <div class="row">
-                  <!-- <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div> -->
-                  <div class="col"><h5 class="card-title font-weight-bold p-0">Присъствено провеждане на учебните занятия през пролетния триместър</h5></div>
+                <!-- <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div> -->
+                <div class="col">
+                  <h5 class="card-title font-weight-bold p-0">Присъствено провеждане на учебните занятия през пролетния
+                    триместър</h5>
+                </div>
               </div>
               <p class="card-text">Уважаеми студенти,<br>
-                Предвид текущата епидемична обстановка, последната заповед на министъра на образованието и ректора на ПУ...</p>
-                <!-- тo занятията през пролетния триместър (редовно и задочно) ще се проведат присъствено... -->
+                Предвид текущата епидемична обстановка, последната заповед на министъра на образованието и ректора на
+                ПУ...</p>
+              <!-- тo занятията през пролетния триместър (редовно и задочно) ще се проведат присъствено... -->
               <a href="#" class="card-link float-right">Повече</a>
             </div>
           </div>
         </div>
 
         <div class="col-3">
-          <div class="card rounded-0 border-top">
+          <div class="card rounded-0 border-top h-100">
             <div class="card-body">
               <div class="row">
-                  <!-- <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div> -->
-                  <div class="col"><h5 class="card-title font-weight-bold p-0">Избираеми дисциплини 2021/22, Пролетен триместър, РЕДОВНО ОБУЧЕНИЕ</h5></div>
+                <!-- <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div> -->
+                <div class="col">
+                  <h5 class="card-title font-weight-bold p-0">Избираеми дисциплини 2021/22, Пролетен триместър, РЕДОВНО
+                    ОБУЧЕНИЕ</h5>
+                </div>
               </div>
               <p class="card-text">
                 Броят на студентите за всяка дисциплина е ограничен.
@@ -170,83 +182,87 @@
               <a href="#" class="card-link float-right">Повече</a>
             </div>
           </div>
-        </div> 
+        </div>
 
         <div class="col-3">
-          <div class="card rounded-0 border-top">
+          <div class="card rounded-0 border-top h-100">
             <div class="card-body">
               <div class="row">
-                  <!-- <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div> -->
-                  <div class="col"><h5 class="card-title font-weight-bold p-0">„Студентски практики – Фаза 2“</h5></div>
+                <!-- <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div> -->
+                <div class="col">
+                  <h5 class="card-title font-weight-bold p-0">„Студентски практики – Фаза 2“</h5>
+                </div>
               </div>
               <p class="card-text">
-                Уважаеми студенти, поради възобновяване на дейностите по проект BG05M2OP001-2.013-0001 „Студентски практики – 
-                Фаза 2“; Ви съобщаваме, че на страницата на проекта http://praktiki.mon.bg/ имате възможност за регистрация, попълване...</p>
+                Уважаеми студенти, поради възобновяване на дейностите по проект BG05M2OP001-2.013-0001 „Студентски
+                практики –
+                Фаза 2“; Ви съобщаваме, че на страницата на проекта http://praktiki.mon.bg/ имате възможност за
+                регистрация, попълване...</p>
               <a href="#" class="card-link float-right">Повече</a>
             </div>
           </div>
-        </div> 
+        </div>
 
         <div class="col-3">
-          <div class="card rounded-0 border-top">
+          <div class="card rounded-0 border-top h-100">
             <div class="card-body">
               <div class="row">
-                  <!-- <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div> -->
-                  <div class="col"><h5 class="card-title font-weight-bold p-0">Избираеми дисциплини 2021/2022, Пролетен триместър, ЗАДОЧНО ОБУЧЕНИЕ</h5></div>
+                <!-- <div class="col-3"><img class="news-icon" src="./assets/img/icons/news.png"></div> -->
+                <div class="col">
+                  <h5 class="card-title font-weight-bold p-0">Избираеми дисциплини 2021/2022, Пролетен триместър,
+                    ЗАДОЧНО ОБУЧЕНИЕ</h5>
+                </div>
               </div>
               <p class="card-text">
-                Броят на студентите за всяка дисциплина е ограничен. Незаписалите избираема дисциплина студенти не получават заверка за настоящия Пролетен...</p>
+                Броят на студентите за всяка дисциплина е ограничен. Незаписалите избираема дисциплина студенти не
+                получават заверка за настоящия Пролетен...</p>
               <a href="#" class="card-link float-right">Повече</a>
             </div>
           </div>
-        </div> 
-  </div>
-</div>
-</div>
-<!-- News cards End -->
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- News cards End -->
 
-<!-- About us  -->
-
-
+    <!-- About us  -->
 
 
-<div id="about" class="container d-flex justify-content-center mb-md-0"> 
+
+
+    <!-- <div id="about" class="container d-flex justify-content-center mb-md-0"> 
   <div class="row">
    <div class="col">
 
     <div class="row justify-content-center">
       <div class="col-md-8 col-lg-8 text-left">
-        <h2>8 Home Projects Perfect Offers</h2>
-        <p>Staying at home for the holidays? Use some of your downtime to tackle a house project or two, and you can
-          start the new year with a fresher, cleaner space. Take the time to work on a project you would never
-          usually have time for (like editing photos from the past year), get a head start on your New Year’s
-          resolutions (by building a healthy pantry) and put away those ornaments and string lights (actually
-          untangled for once). These eight ideas may just motivate you to put down the Christmas cookies. </p>
+        <p>Факултетът по математика и информатика (ФМИ) е първият самостоятелен факултет в над половинвековната история на Пловдивския университет „Паисий Хилендарски“.  Днес той е  утвърден и авторитетен център за научни изследвания и подготовка на специалисти в областта на математиката, информатиката и информационните технологии. В него работят около 80 висококвалифицирани преподаватели, половината от които са хабилитирани (12 професори и 29 доценти) и повече от половината – с научни степени (4 доктори на науките и 70 доктори). Голяма част от тях са специализирали в реномирани чуждестранни научни институти и университети, били са гост-преподаватели в университети на САЩ, Япония, Африка и Европа. Много са участията им в авторитетни международни научни форуми и в научни и образователни проекти съвместно с университети от ЕС, САЩ  и др.  ФМИ осъществява обмен на студенти и преподаватели по различни академични програми с университети в Австрия, Англия, Германия, Ирландия, Испания, Македония, Португалия, Румъния, Сърбия и Черна гора, Унгария, Финландия.</p>
       </div>
     </div>
 
-      <img id="about" src="./assets/img/illustrations/about-us.png">
+      <img id="about" src="./assets/img/illustrations/about-us-2.png">
     </div>
 </div>
-</div>
+</div> -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</main>
-  <footer>
+    <div id="pre-footer">
+      <img id="main-footer-img" src="assets/img/illustrations/about-us-2.png" />
+      <div class="container">
+        <div id="main-footer-text">Факултетът по математика и информатика (ФМИ) е първият самостоятелен факултет в над
+          половинвековната история на Пловдивския университет „Паисий Хилендарски“. Днес той е утвърден и авторитетен
+          център за научни изследвания и подготовка на специалисти в областта на математиката, информатиката и
+          информационните технологии. В него работят около 80 висококвалифицирани преподаватели, половината от които са
+          хабилитирани (12 професори и 29 доценти) и повече от половината – с научни степени (4 доктори на науките и 70
+          доктори). Голяма част от тях са специализирали в реномирани чуждестранни научни институти и университети, били
+          са гост-преподаватели в университети на САЩ, Япония, Африка и Европа. Много са участията им в авторитетни
+          международни научни форуми и в научни и образователни проекти съвместно с университети от ЕС, САЩ и др. ФМИ
+          осъществява обмен на студенти и преподаватели по различни академични програми с университети в Австрия,
+          Англия,
+          Германия, Ирландия, Испания, Македония.</div>
+      </div>
+    </div>
+  </main>
+  <footer id="main-footer">
     <div class="text-center p-4">
       © 2022 Факултет математика и информатика към ПУ "Паисий Хилендарски"
     </div>
