@@ -1,11 +1,61 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -17,14 +67,15 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 }
 
-*, body {
+*,
+body {
 	font-family: 'Rubik', sans-serif;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .navbar {
-	background-color: #14387F;
+	background-color: #1d3557;
 	width: 1500px;
 }
 
@@ -48,18 +99,20 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	margin-right: auto;
 }
 
-.carousel-inner > .carousel-item {
+.carousel-inner>.carousel-item {
 	/* Todo slower transition  */
-    /* transition: 0.6ms; */
-    
+	/* transition: 0.6ms; */
+
 }
 
-body, main, .bg {
-	background-color: #e8edf0;
+body,
+main,
+.bg {
+	background-color: #f1f6f9;
 }
 
-header{
-	background-color: #14387F;
+header {
+	background-color: #1d3557;
 }
 
 #navbarCollapse>form>button {
@@ -67,15 +120,9 @@ header{
 	color: #446CB3;
 }
 
-.btn-outline-success {
-
-	border-color: #446CB3 !important;
-
-}
-
 #navbarCollapse>form>input {
 
-	background-color: #14387F;
+	background-color: #1d3557;
 	border-top: none;
 	border-left: none;
 	border-right: none;
@@ -83,10 +130,12 @@ header{
 	color: white;
 }
 
-.nav-link{
+.nav-link {
 	font-size: 1.3rem;
+	color: #F1F6F9 !important;
 }
-.nav-link:active{
+
+.nav-link:active {
 	color: white !important;
 }
 
@@ -99,18 +148,19 @@ header{
 	width: 20px;
 }
 
-#messages{
+#messages {
 	float: none;
-	background-color: #1A62A3;
-	color:#fff;
+	background-color: #457b9d;
+	color: #fff;
 	margin-left: auto;
 	margin-right: auto;
 }
-.link-light{
+
+.link-light {
 	font-size: 1.3rem;
 }
 
-#carouselExampleIndicators li{
+#carouselExampleIndicators li {
 	width: 10px;
 	height: 10px;
 	border-radius: 100%;
@@ -143,9 +193,9 @@ header{
 	width: auto;
 }
 
-.message-link{
+.message-link {
 	border-bottom: 2px !important;
-	border-color: #113D77;
+	border-color: #1d3557;
 }
 
 
@@ -161,31 +211,31 @@ header{
 	/* border-radius: 0px !important; */
 }
 
-.news-icon{
+.news-icon {
 	width: 2rem;
 }
 
 
 /* Lines below need a second thought..  */
-#about{
+#about {
 	background-position: bottom center;
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 }
 
-img#about{
+img#about {
 	opacity: 0.7;
 	object-fit: contain;
 	/* height: 500px; */
 	width: auto;
 	/* background-repeat: no-repeat; */
-  	background-size: cover;
-}  
+	background-size: cover;
+}
 
 /* ------------------- */
 
-footer{
-	background-color: #14387F;
-	color:#fff;
+footer {
+	background-color: #1d3557;
+	color: #fff;
 }
 
 .schedule-card-heading {
@@ -194,7 +244,9 @@ footer{
 
 /* Students page */
 
-#schedules-header-title, #admission-header-title, #others-header-title{
+#schedules-header-title,
+#admission-header-title,
+#others-header-title {
 	width: 100%;
 	text-align: center;
 	border-bottom: 1px solid #09173D;
@@ -204,39 +256,41 @@ footer{
 	color: #09173D;
 }
 
-#schedules-header-title span, #admission-header-title span, #others-header-title span {
-	background: #e8edf0;
+#schedules-header-title span,
+#admission-header-title span,
+#others-header-title span {
+	background: #F1F6F9;
 	padding: 0 6%;
 }
 
-#schedules-header, #admission-header, #others-header{
+#schedules-header,
+#admission-header,
+#others-header {
 	margin: 0 5%;
 }
 
 /* Admission page */
-.card-admission{
+.card-admission {
 	background-color: #fafafa !important;
 	width: 20rem;
 }
 
-.schedule-card-heading{
+.schedule-card-heading {
 	display: inline;
 }
 
-#main-footer-text{
+#main-footer-text {}
 
-}
-
-#main-footer-img{
+#main-footer-img {
 	shape-outside: polygon(100% 0px, 100% 100%, 0px 100%, 0px 425px);
 	float: right;
 }
 
-#main-footer{
+#main-footer {
 	clear: both
 }
 
-#pre-footer{
+#pre-footer {
 	margin-top: 100px;
 }
 
@@ -248,6 +302,36 @@ footer{
 	margin-right: 5%;
 }
 
-#fmi-txt-about{
+#fmi-txt-about {
 	text-align: justify;
+}
+
+.c-link {
+	color: #457B9D;
+	text-decoration: none;
+}
+
+.c-link:hover {
+	color: #1D3557;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+	background-color: #1D3557 !important;
+}
+
+.btn-outline-primary {
+	border-color: #1D3557 !important;
+	color: #1D3557 !important;
+}
+
+.btn-outline-primary:hover {
+	background-color: #1D3557 !important;
+	color: white !important;
+}
+
+.btn-outline-success {
+	border-color: #446CB3 !important;
 }
