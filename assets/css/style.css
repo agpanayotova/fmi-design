@@ -239,3 +239,15 @@ footer{
 #pre-footer{
 	margin-top: 100px;
 }
+
+#fmi-img {
+	width: 60%;
+	height: auto;
+	float: left;
+	margin-bottom: 3%;
+	margin-right: 5%;
+}
+
+#fmi-txt-about{
+	text-align: justify;
+}
